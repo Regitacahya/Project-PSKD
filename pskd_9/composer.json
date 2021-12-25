@@ -1,0 +1,18 @@
+{
+    "name": "user/jwt-php-native",
+    "autoload": {
+        "psr-4": {
+            "User\\JwtPhpNative\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "regita cahya",
+            "email": "regitacahyawulan@student.uns.ac.id"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "firebase/php-jwt": "^5.5"
+    }
+}
